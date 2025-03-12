@@ -49,7 +49,7 @@ def main():
     print(f"MidNumberOfFeeds: {results['MidNumberOfFeeds']}")
     print(f"MinNumberOfFeeds: {results['MinNumberOfFeeds']}")
     print(f"WaterFlowArea: {results['WaterFlowArea']:.4f} square inches")
-    print(f"WaterFlowRate: {results['WaterFlowRate']:.4f} inches")
+    print(f"WaterFlowRate: {results['WaterFlowRate']:.4f} GPM")
 
 if __name__ == "__main__":
     main()
